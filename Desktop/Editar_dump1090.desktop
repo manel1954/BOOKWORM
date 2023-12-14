@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+TryExec=lxterminal
+Exec=sh -c 'cd /home/pi/SYSTEM/qt;./qt_paneles_activar_desactivar'
+Icon=/home/pi/SYSTEM/ICO_SYSTEM.png
+Type=Application
+StartupNotify=false
+Categories=GTK;Utility;TerminalEmulator;
+Terminal=false
+Name[es_ES]=Elegir SISTEMAS
+Hidden=false
+Comment[es_ES]=.
