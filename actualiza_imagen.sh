@@ -11,12 +11,12 @@ MARRON="\33[38;5;138m"
 NEGRO="\e[30m"
                         clear
                         echo -n "${NEGRO}"
-                        cd /home/pi/SYSTEM   
+                        cd /home/pi/BOOKWROM   
                         git pull                                                              
-                        mv qt_* /home/pi/SYSTEM/qt
-                        chmod 777 -R /home/pi/SYSTEM/qt
+                        mv qt_* /home/pi/BOOKWROM/qt
+                        chmod 777 -R /home/pi/BOOKWROM/qt
                        
-                        cd /home/pi/SYSTEM/qt/
+                        cd /home/pi/BOOKWROM/qt/
                         ./qt_actualizando_imagen
 
 

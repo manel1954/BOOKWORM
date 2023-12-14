@@ -1,8 +1,8 @@
 [Desktop Entry]
 Encoding=UTF-8
 TryExec=lxterminal
-Exec=sh -c "cd /home/pi/SYSTEM;lxterminal --geometry=80x15 -e sudo sh  Actualizar_dv4mini.sh"
-Icon=/home/pi/SYSTEM/ICO_DV4MINI_OFF.png
+Exec=sh -c "cd /home/pi/BOOKWROM;lxterminal --geometry=80x15 -e sudo sh  Actualizar_dv4mini.sh"
+Icon=/home/pi/BOOKWROM/ICO_DV4MINI_OFF.png
 Type=Application
 StartupNotify=false
 Categories=GTK;Utility;TerminalEmulator;

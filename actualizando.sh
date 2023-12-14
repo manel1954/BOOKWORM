@@ -1,4 +1,4 @@
 #!/bin/bash                       
 
-                        cd /home/pi/SYSTEM
+                        cd /home/pi/BOOKWROM
                         mono ImagenActualizada.exe

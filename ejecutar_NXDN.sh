@@ -36,7 +36,7 @@ sudo rm /home/pi/Abrir_NXDN.desktop
 
 
 cd /home/pi/MMDVMHost
-#/home/pi/SYSTEM/./qt_info_nxdn & sudo lxterminal --geometry=80x12 -e ./MMDVMNXDN MMDVMNXDN.ini &
+#/home/pi/BOOKWROM/./qt_info_nxdn & sudo lxterminal --geometry=80x12 -e ./MMDVMNXDN MMDVMNXDN.ini &
 xterm -geometry 88x9+1274+787 -bg blue -fg white -fa ‘verdana’ -fs 9x -T CONSOLA_MMDVMNXDN -e ./MMDVMNXDN MMDVMNXDN.ini &
 
 
