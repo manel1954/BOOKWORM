@@ -54,13 +54,13 @@ sed -i "19c DMRGateway=OFF" $usuario/status.ini
 #sed -i "22c NEXTIONDRIVER=OFF" $usuario/status.ini
 
 #Actualiza todos los iconos y Quita todos los iconos verdes que se quedan al cerrar la imagen
-sudo cp $usuario/Desktop/Activar_dvswitch.desktop $usuario/.local #deja el icono en el estado que se reinició
-
-cd $usuario/$SCRIPTS_version/Desktop
-cp * $usuario/Desktop
-sudo chmod 777 -R $usuario/Desktop
-
-sudo cp $usuario/.local/Activar_dvswitch.desktop $usuario/Desktop #deja el icono en el estado que se reinició
+#sudo cp $usuario/Desktop/Activar_dvswitch.desktop $usuario/.local #deja el icono en el estado que se reinició
+#
+#cd $usuario/$SCRIPTS_version/Desktop
+#cp * $usuario/Desktop
+#sudo chmod 777 -R $usuario/Desktop
+#
+#sudo cp $usuario/.local/Activar_dvswitch.desktop $usuario/Desktop #deja el icono en el estado que se reinició
 
 
 #pone todos los datos de DMR+ , Brandameiter, svxlink etc en panel_control.ini
