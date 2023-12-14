@@ -26,7 +26,7 @@ fi
 # path usuario
 usuario="/home/pi"
 usuario="$usuario"
-SCRIPTS_version="SYSTEM"
+SCRIPTS_version="BOOKWORM"
 actualizacion=$(awk "NR==2" /home/pi/version-fecha-actualizacion)
 version="SYST_"
 version=$version$actualizacion
