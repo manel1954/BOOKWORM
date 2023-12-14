@@ -241,114 +241,114 @@ rm $usuario/RXF_DMRGATEWAY.desktop
 sudo chmod 777 -R $usuario/Desktop
 sleep 2
 
-sudo rm /home/pi/BOOKWROM/Desktop/st-data
+sudo rm /home/pi/BOOKWORM/Desktop/st-data
 sudo rm /home/pi/Desktop/st-data
 
 #comprueba los paneles si estan activo o no
 panelbm=$(awk "NR==1" /home/pi/paneles_activos.ini)
 if [ "$panelbm" = 'BM=OFF' ];then
-cd /home/pi/BOOKWROM/qt/
+cd /home/pi/BOOKWORM/qt/
 ./qt_panel_bm & 
 fi
 
 paneldmrplus=$(awk "NR==2" /home/pi/paneles_activos.ini)
 if [ "$paneldmrplus" = 'DMRPLUS=OFF' ];then
-cd /home/pi/BOOKWROM/qt/
+cd /home/pi/BOOKWORM/qt/
 ./qt_panel_dmrplus & 
 fi
 
 panelradio=$(awk "NR==3" /home/pi/paneles_activos.ini)
 if [ "$panelradio" = 'RADIO=OFF' ];then
-cd /home/pi/BOOKWROM/qt/
+cd /home/pi/BOOKWORM/qt/
 ./qt_panel_radio &  
 fi
 
 panelespecial=$(awk "NR==4" /home/pi/paneles_activos.ini)
 if [ "$panelespecial" = 'ESPECIAL=OFF' ];then
-cd /home/pi/BOOKWROM/qt/
+cd /home/pi/BOOKWORM/qt/
 ./qt_panel_especial &  
 fi
 
 panelfusion=$(awk "NR==5" /home/pi/paneles_activos.ini)
 if [ "$panelfusion" = 'FUSION=OFF' ];then
-cd /home/pi/BOOKWROM/qt/
+cd /home/pi/BOOKWORM/qt/
 ./qt_panel_fusion &  
 fi
 
 paneldstar=$(awk "NR==6" /home/pi/paneles_activos.ini)
 if [ "$paneldstar" = 'DSTAR=OFF' ];then
-cd /home/pi/BOOKWROM/qt/
+cd /home/pi/BOOKWORM/qt/
 ./qt_panel_dstar &  
 fi
 
 panelysf2dmr=$(awk "NR==7" /home/pi/paneles_activos.ini)
 if [ "$panelysf2dmr" = 'YSF2DMR=OFF' ];then
-cd /home/pi/BOOKWROM/qt/
+cd /home/pi/BOOKWORM/qt/
 ./qt_panel_ysf2dmr &  
 fi
 
 paneldmr2ysf=$(awk "NR==8" /home/pi/paneles_activos.ini)
 if [ "$paneldmr2ysf" = 'DMR2YSF=OFF' ];then
-cd /home/pi/BOOKWROM/qt/
+cd /home/pi/BOOKWORM/qt/
 ./qt_panel_dmr2ysf &  
 fi
 
 paneldmr2nxdn=$(awk "NR==9" /home/pi/paneles_activos.ini)
 if [ "$paneldmr2nxdn" = 'DMR2NXDN=OFF' ];then
-cd /home/pi/BOOKWROM/qt/
+cd /home/pi/BOOKWORM/qt/
 ./qt_panel_dmr2nxdn &  
 fi
 
 panelnxdn=$(awk "NR==10" /home/pi/paneles_activos.ini)
 if [ "$panelnxdn" = 'NXDN=OFF' ];then
-cd /home/pi/BOOKWROM/qt/
+cd /home/pi/BOOKWORM/qt/
 ./qt_panel_nxdn &  
 fi
 
 panelysf=$(awk "NR==11" /home/pi/paneles_activos.ini)
 if [ "$panelysf" = 'YSF=OFF' ];then
-cd /home/pi/BOOKWROM/qt/
+cd /home/pi/BOOKWORM/qt/
 ./qt_panel_ysf &  
 fi
 
 paneldv4mini=$(awk "NR==12" /home/pi/paneles_activos.ini)
 if [ "$paneldv4mini" = 'DV4MINI=OFF' ];then
-cd /home/pi/BOOKWROM/qt/
+cd /home/pi/BOOKWORM/qt/
 ./qt_panel_dv4mini &  
 fi
 
 panelircddb=$(awk "NR==13" /home/pi/paneles_activos.ini)
 if [ "$panelircddb" = 'IRCDDB=OFF' ];then
-cd /home/pi/BOOKWROM/qt/
+cd /home/pi/BOOKWORM/qt/
 ./qt_panel_ircddb &  
 fi
 
 paneldmrgateway=$(awk "NR==14" /home/pi/paneles_activos.ini)
 if [ "$paneldmrgateway" = 'DMRGATEWAY=OFF' ];then
-cd /home/pi/BOOKWROM/qt/
+cd /home/pi/BOOKWORM/qt/
 ./qt_panel_dmrgateway &  
 fi
 
 panelsvxlink=$(awk "NR==15" /home/pi/paneles_activos.ini)
 if [ "$panelsvxlink" = 'SVXLINK=OFF' ];then
-cd /home/pi/BOOKWROM/qt/
+cd /home/pi/BOOKWORM/qt/
 ./qt_panel_svxlink &  
 fi
 
 panelambeserver=$(awk "NR==16" /home/pi/paneles_activos.ini)
 if [ "$panelambeserver" = 'AMBESERVER=OFF' ];then
-cd /home/pi/BOOKWROM/qt/
+cd /home/pi/BOOKWORM/qt/
 ./qt_panel_ambeserver &  
 fi
 
 paneldmr2m17=$(awk "NR==17" /home/pi/paneles_activos.ini)
 if [ "$paneldmr2m17" = 'DMR2M17=OFF' ];then
-cd /home/pi/BOOKWROM/qt/
+cd /home/pi/BOOKWORM/qt/
 ./qt_panel_dmr2m17 &  
 fi
 
 paneldvrptr=$(awk "NR==18" /home/pi/paneles_activos.ini)
 if [ "$paneldvrptr" = 'DVRPTR=OFF' ];then
-cd /home/pi/BOOKWROM/qt/
+cd /home/pi/BOOKWORM/qt/
 ./qt_panel_dvrptr &  
 fi

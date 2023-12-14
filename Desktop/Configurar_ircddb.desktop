@@ -1,9 +1,9 @@
 [Desktop Entry]
 Comment=EA3EIZ
-Exec=sh -c "cd /home/pi/BOOKWROM/qt;./qt_editor_ircddb"
+Exec=sh -c "cd /home/pi/BOOKWORM/qt;./qt_editor_ircddb"
 Type=Application
 Terminal=false
 Comment[es_ES]=
 Name[es_ES]=Editar ircDDB
-Icon=/home/pi/BOOKWROM/ICO_EDITOR_SOLODSTAR.png
+Icon=/home/pi/BOOKWORM/ICO_EDITOR_SOLODSTAR.png
  

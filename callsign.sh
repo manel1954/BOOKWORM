@@ -24,5 +24,5 @@ sudo sed -i "1c NOCALL" /home/pi/MMDVMHost/HOLA.txt
 #xterm -geometry 7x2+652+134 -bg black -fg white -fa ‘verdana’ -fs 19x -T ACTUALIZANDO_IMAGEN -e tail -f /home/pi/MMDVMHost/HOLA.txt
 
 fi
-cd /home/pi/BOOKWROM
+cd /home/pi/BOOKWORM
 ./qt_Callsign
