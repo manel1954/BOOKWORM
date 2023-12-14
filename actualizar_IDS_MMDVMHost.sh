@@ -12,7 +12,7 @@ clear
 echo -n "${AMARILLO}"
 echo ""
 
-echo "                       **-ACTUALIZANDO IDS INDICATIVOS-**"
+echo "                       **-ACTUALIZANDO IDS INDICATIVOS-**ACTUALIZADO"
 
 #echo "ACTUALIZANDO DMRIds.dat para DVSWITCH"
 
