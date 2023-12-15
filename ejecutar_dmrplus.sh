@@ -38,7 +38,7 @@ sudo cp Abrir_MMDVMPLUS.desktop /home/pi/Desktop
 sudo rm /home/pi/Abrir_MMDVMPLUS.desktop
 
 cd /home/pi/MMDVMHost
-xterm -geometry 86x12+0+800 -bg black -fg white -fa ‘verdana’ -fs 9x -T CONSOLA_DMR+ -e sudo ./MMDVMPLUS MMDVMPLUS.ini
+xterm -geometry 86x12+-2+850 -bg black -fg white -fa ‘verdana’ -fs 9x -T CONSOLA_DMR+ -e sudo ./MMDVMPLUS MMDVMPLUS.ini
 
 #chromium-browser
 
