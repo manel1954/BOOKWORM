@@ -38,7 +38,7 @@ sleep 1
 sudo rm /home/pi/Abrir_Radio.desktop
 
 cd /home/pi/MMDVMHost
-xterm -geometry 87x12+610+850 -bg blue -fg white -fa ‘verdana’ -fs 9x -T CONSOLA_RADIO -e sudo ./MMDVMHost MMDVM.ini
+xterm -geometry 87x12+607+850 -bg blue -fg white -fa ‘verdana’ -fs 9x -T CONSOLA_RADIO -e sudo ./MMDVMHost MMDVM.ini
 
 cd /home/pi/Desktop
 sudo cp Abrir_Radio.desktop /home/pi
