@@ -10,7 +10,7 @@ cd /home/pi
 sudo cp Abrir_autoarranque.desktop /home/pi/Desktop
 sudo rm /home/pi/Abrir_autoarranque.desktop
 
-cd /home/pi/BOOKWORM
+cd /home/pi/BOOKWORM/qt
  ./qt_autoarranque
 
 
