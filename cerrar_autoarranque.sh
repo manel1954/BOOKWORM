@@ -1,4 +1,7 @@
 #!/bin/bash
+
+sudo killall qt_autoarranque
+
 SCRIPTS_version=$(awk "NR==3" /home/pi/version-fecha-actualizacion)
 cd /home/pi/Desktop
 sudo cp Abrir_autoarranques.desktop /home/pi
@@ -9,6 +12,3 @@ sed -i "10c Name[es_ES]=Abrir AUTOARRANQUE" /home/pi/Abrir_autoarranques.desktop
 cd /home/pi
 sudo cp Abrir_autoarranques.desktop /home/pi/Desktop
 sudo rm /home/pi/Abrir_autoarranques.desktop
-
-cd /home/pi/BOOKWORM/qt
- ./qt_autoarranque_cerrar
