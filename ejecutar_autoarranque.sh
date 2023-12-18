@@ -8,6 +8,7 @@ sed -i "10c Name[es_ES]=Cerrar AUTOARRANQUE" /home/pi/Abrir_autoarranques.deskto
 #sed -i "12c SOLOFUSION=ON" /home/pi/status.ini
 cd /home/pi
 sudo cp Abrir_autoarranques.desktop /home/pi/Desktop
+sudo chmod 777 /home/pi/Desktop/Abrir_autoarranques.desktop
 sudo rm /home/pi/Abrir_autoarranques.desktop
 
 cd /home/pi/BOOKWORM/qt
