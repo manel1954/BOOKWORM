@@ -25,6 +25,7 @@ usuario="$usuario"
 						echo "   **************************************************************************"
 						echo "   **************************************************************************"
 						sleep 3
+						read a
 			            echo "${NEGRO}"						
 						cd $usuario/YSFClients/YSFGateway
 						sudo chmod 777 -R $usuario/YSFClients/YSFGateway
