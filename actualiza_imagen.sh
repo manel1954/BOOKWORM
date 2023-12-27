@@ -10,7 +10,7 @@ GRIS="\033[0m"
 MARRON="\33[38;5;138m"
 NEGRO="\e[30m"
                         clear
-                        echo -n "${NEGRO}"
+                        echo -n "${CIAN}"
                         cd /home/pi/BOOKWORM   
                         git pull                                                              
                         mv qt_* /home/pi/BOOKWORM/qt
