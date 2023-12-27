@@ -12,8 +12,7 @@ NEGRO="\e[30m"
                         clear
                         echo -n "${AMARILLO}"
                         cd /home/pi/BOOKWORM   
-                        git pull    
-                        read a                                                          
+                        git pull                                                             
                         mv qt_* /home/pi/BOOKWORM/qt
                         chmod 777 -R /home/pi/BOOKWORM/qt
                        
