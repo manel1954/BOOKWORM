@@ -1,13 +1,13 @@
 #!/bin/bash
 cd /var/www/html/upload/files
 
-cp Copia_SYSTEM.zip /home/pi/.local/COPIA_SEGURIDAD
+cp Copia_BOOKWORM.zip /home/pi/.local/COPIA_SEGURIDAD
 
 sudo rm -R /home/pi/.local/COPIA_SEGURIDAD/Dowloads
 cd /home/pi/.local/COPIA_SEGURIDAD
-tar -xvzf Copia_SYSTEM.zip
+tar -xvzf Copia_BOOKWORM.zip
 
-sudo rm Copia_SYSTEM.zip
+sudo rm Copia_BOOKWORM.zip
 echo "\33[1;32m" #color verde   
 echo "***************************************************"
 echo "* ESTAS RESTAURANDO UNA COPIA DE LA MISMA VERSIÓN *"
