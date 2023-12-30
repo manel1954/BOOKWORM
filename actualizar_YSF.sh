@@ -21,7 +21,7 @@ usuario="$usuario"
 						echo "${NEGRO}"
 						echo "                  ACTUALIZANDO LISTADO DE SALAS YSF y FCS                    "
 						echo "                                                                             "
-						echo -n "${NEGRO}"
+						echo -n "${ROJO}"
 						echo "   **************************************************************************"
 						echo "   **************************************************************************"
 						sleep 3
