@@ -21,7 +21,7 @@ sudo cp /home/pi/RXF_SOLOFUSION.desktop /home/pi/Desktop
 
 sudo rm /home/pi/RXF_SOLOFUSION.desktop
 
-#Escribe en el fichero INFO_RXF para poner los datos en el icono INFO TXF                          
+#Escribe en el fichero INFO_RXF para poner los datos en el icono INFO TXF                           
 sed -i "6c $frecuencia" /home/pi/INFO_RXF
 
 SCRIPTS_version=$(awk "NR==3" /home/pi/version-fecha-actualizacion)
@@ -39,7 +39,7 @@ sudo rm /home/pi/Abrir_solofusion.desktop
 cd /home/pi/YSFClients/YSFGateway
 xterm -geometry 88x6+1274+665 -bg black -fg orange -fa ‘verdana’ -fs 9x -T CONSOLA_YSFGateway -e ./YSFGateway YSFGateway.ini & 
 cd /home/pi/MMDVMHost
-xterm -geometry 88x8+1274+785 -bg black -fg orange -fa ‘verdana’ -fs 9x -T CONSOLA_SOLOFUSION -e sudo ./MMDVMFUSION MMDVMFUSION.ini
+xterm -geometry 85x13+1215+846 -bg black -fg orange -fa ‘verdana’ -fs 9x -T CONSOLA_SOLOFUSION -e sudo ./MMDVMFUSION MMDVMFUSION.ini
 
 cd /home/pi/Desktop
 sudo cp Abrir_solofusion.desktop /home/pi
