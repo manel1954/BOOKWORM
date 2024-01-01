@@ -20,5 +20,5 @@ sudo rm /var/log/mmdvm/MMDVM*
 
 sudo rm /home/pi/DMRGateway/*.log
 clear
-echo "\33[1;32m<<<<< BORRANDO TODOS LOS LOGSxxxxxxxxxx >>>>>"
+echo "\33[1;32m<<<<< BORRANDO TODOS LOS LOGS >>>>>"
 sleep 5
