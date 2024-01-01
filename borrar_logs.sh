@@ -20,5 +20,5 @@ sudo rm /var/log/mmdvm/MMDVM*
 
 sudo rm /home/pi/DMRGateway/*.log
 clear
-echo "\33[1;32m<<<<< BORRANDO TODOS LOS LOGS >>>>>"
+echo "\33[1;32m<<<<< BORRANDO TODOS LOS LOGS CRISTOBAL >>>>>"
 sleep 5
