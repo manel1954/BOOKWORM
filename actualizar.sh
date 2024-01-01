@@ -28,7 +28,7 @@ usuario="/home/pi"
 usuario="$usuario"
 SCRIPTS_version="BOOKWORM"
 actualizacion=$(awk "NR==2" /home/pi/version-fecha-actualizacion)
-version="P_"
+version="P5_"
 version=$version$actualizacion
 
 #pone todos los status de inicio en OFF
