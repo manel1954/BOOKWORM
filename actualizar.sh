@@ -56,9 +56,12 @@ sed -i "19c DMRGateway=OFF" $usuario/status.ini
 #Actualiza todos los iconos y Quita todos los iconos verdes que se quedan al cerrar la imagen
 #sudo cp $usuario/Desktop/Activar_dvswitch.desktop $usuario/.local #deja el icono en el estado que se reinició
 #
-cd $usuario/$SCRIPTS_version/Desktop
-cp * $usuario/Desktop
-sudo chmod 777 -R $usuario/Desktop
+
+        #DESMARCAR  LAS 3 LINEAS SIGUIENTES PARA ARREGLAR ICONOS DEFECTUOSOS
+        #cd $usuario/$SCRIPTS_version/Desktop
+        #cp * $usuario/Desktop
+        #sudo chmod 777 -R $usuario/Desktop
+
 
 #sudo cp $usuario/.local/Activar_dvswitch.desktop $usuario/Desktop #deja el icono en el estado que se reinició
 
