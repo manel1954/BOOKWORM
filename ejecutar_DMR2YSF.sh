@@ -44,14 +44,14 @@ sudo cp Abrir_DMR2YSF.desktop /home/pi/Desktop
 sudo rm /home/pi/Abrir_DMR2YSF.desktop
 
 cd /home/pi/DMR2YSF
-xterm -geometry 88x6+1274+665 -bg black -fg yellow -fa ‘verdana’ -fs 9x -T CONSOLA_DMR2YSF -e ./DMR2YSF DMR2YSF.ini &
+xterm -geometry 85x12+612+296 -bg black -fg yellow -fa ‘verdana’ -fs 9x -T CONSOLA_DMR2YSF -e ./DMR2YSF DMR2YSF.ini &
 
 cd /home/pi/MMDVMHost
 #/home/pi/BOOKWORM/./qt_info_dmr2ysf & sudo lxterminal --geometry=77x18 --title=MMDVMDMR2YSF -e ./DMR2YSF MMDVMDMR2YSF.ini &
-xterm -geometry 88x9+1274+787 -bg black -fg yellow -fa ‘verdana’ -fs 9x -T CONSOLA_MMDVMDMR2YSF -e ./DMR2YSF MMDVMDMR2YSF.ini &
+xterm -geometry 85x12+1215+296 -bg black -fg yellow -fa ‘verdana’ -fs 9x -T CONSOLA_MMDVMDMR2YSF -e ./DMR2YSF MMDVMDMR2YSF.ini &
 cd /home/pi/YSFClients/YSFGateway
 
-xterm -geometry 88x9+10+787 -bg black -fg yellow -fa ‘verdana’ -fs 9x -T CONSOLA_YSFGateway -e ./YSFGateway YSFGateway.ini
+xterm -geometry 88x12+10+296 -bg black -fg yellow -fa ‘verdana’ -fs 9x -T CONSOLA_YSFGateway -e ./YSFGateway YSFGateway.ini
 
 //sudo ./YSFGateway YSFGateway.ini
 
