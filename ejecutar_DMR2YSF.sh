@@ -51,7 +51,7 @@ cd /home/pi/MMDVMHost
 xterm -geometry 85x12+1215+296 -bg black -fg yellow -fa ‘verdana’ -fs 9x -T CONSOLA_MMDVMDMR2YSF -e ./DMR2YSF MMDVMDMR2YSF.ini &
 cd /home/pi/YSFClients/YSFGateway
 
-xterm -geometry 88x12+10+296 -bg black -fg yellow -fa ‘verdana’ -fs 9x -T CONSOLA_YSFGateway -e ./YSFGateway YSFGateway.ini
+xterm -geometry 85x12+10+296 -bg black -fg yellow -fa ‘verdana’ -fs 9x -T CONSOLA_YSFGateway -e ./YSFGateway YSFGateway.ini
 
 //sudo ./YSFGateway YSFGateway.ini
 
