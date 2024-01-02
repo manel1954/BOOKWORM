@@ -10,7 +10,7 @@ sed -i "5c Icon=/home/pi/$SCRIPTS_version/ICO_YSF2DMR_OFF.png" /home/pi/Abrir_YS
 sed -i "10c Name[es_ES]=Abrir YSF2DMR" /home/pi/Abrir_YSF2DMR.desktop
 sed -i "14c YSF2DMR=OFF" /home/pi/status.ini
 cd /home/pi
-
+sleep 1
 sudo cp Abrir_YSF2DMR.desktop /home/pi/Desktop
-
+sleep 1
 sudo rm /home/pi/Abrir_YSF2DMR.desktop

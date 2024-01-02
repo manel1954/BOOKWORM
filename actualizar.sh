@@ -58,9 +58,9 @@ sed -i "19c DMRGateway=OFF" $usuario/status.ini
 #
 
         #DESMARCAR  LAS 3 LINEAS SIGUIENTES PARA ARREGLAR ICONOS DEFECTUOSOS
-        #cd $usuario/$SCRIPTS_version/Desktop
-        #cp * $usuario/Desktop
-        #sudo chmod 777 -R $usuario/Desktop
+        cd $usuario/$SCRIPTS_version/Desktop
+        cp * $usuario/Desktop
+        sudo chmod 777 -R $usuario/Desktop
 
 
 #sudo cp $usuario/.local/Activar_dvswitch.desktop $usuario/Desktop #deja el icono en el estado que se reinició
