@@ -34,15 +34,15 @@ usuario="$usuario"
 						sleep 3
 						clear
 						echo "\v\v\v\v\v"
-						echo "${NEGRO}"
+						echo "${ROJO}"
 						echo "   **************************************************************************"
 						echo "   **************************************************************************"
 						echo "${NEGRO}"
 						echo "             Los fichero YSFHost.txt y FCSRooms.txt se han actualizado       "
 						echo "                                                                             "
-						echo -n "${NEGRO}"
+						echo -n "${ROJO}"
 						echo "   **************************************************************************"
 						echo "   **************************************************************************"
-						sleep 3
+						sleep 5
 						exit;
 						
