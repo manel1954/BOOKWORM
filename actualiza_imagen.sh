@@ -15,6 +15,7 @@ NEGRO="\e[30m"
                         git pull                                                             
                         mv qt_* /home/pi/BOOKWORM/qt
                         chmod 777 -R /home/pi/BOOKWORM/qt
+                        chmod 777 -R /home/pi/BOOKWORM
                        
                         cd /home/pi/BOOKWORM/qt/
                         ./qt_actualizando_imagen
