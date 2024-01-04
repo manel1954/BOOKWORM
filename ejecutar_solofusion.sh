@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#sudo killall -9 qt_editor_solofusion
+sudo killall -9 qt_editor_solofusion
 
 mode=`grep -n -m 1 "^UARTPort=" /home/pi/MMDVMHost/MMDVMFUSION.ini`
 buscar=":"
