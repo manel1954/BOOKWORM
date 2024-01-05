@@ -40,8 +40,6 @@ sudo rm /home/pi/Abrir_MMDVMPLUS.desktop
 cd /home/pi/MMDVMHost
 xterm -geometry 85x13+612+846 -bg black -fg white -fa ‘verdana’ -fs 9x -T CONSOLA_DMR+ -e sudo ./MMDVMPLUS MMDVMPLUS.ini
 
-#chromium-browser
-
 cd /home/pi/Desktop
 sudo cp Abrir_MMDVMPLUS.desktop /home/pi
 sudo sed -i "4c Exec=sh -c 'cd /home/pi/$SCRIPTS_version;sudo sh ejecutar_dmrplus.sh'" /home/pi/Abrir_MMDVMPLUS.desktop
