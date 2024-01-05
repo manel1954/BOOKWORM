@@ -28,9 +28,9 @@ sed -i "2c $frecuencia" /home/pi/INFO_RXF
 SCRIPTS_version=$(awk "NR==3" /home/pi/version-fecha-actualizacion)
 cd /home/pi/Desktop
 sudo cp Abrir_MMDVMPLUS.desktop /home/pi
-sudo sed -i "4c Exec=sh -c 'cd /home/pi/$SCRIPTS_version; sh cerrar_dmrplus.sh'" /home/pi/Abrir_MMDVMPLUS.desktop
+sudo sed -i "4c Exec=sh -c 'cd /home/pi/$SCRIPTS_version; sudo sh cerrar_dmrplus.sh'" /home/pi/Abrir_MMDVMPLUS.desktop
 sudo sed -i "5c Icon=/home/pi/$SCRIPTS_version/ICO_DMRPLUS_ON.png" /home/pi/Abrir_MMDVMPLUS.desktop
-sudo sed -i "10c Name[es_ES]=Cerrar DMR+" /home/pi/Abrir_MMDVMPLUS.desktop
+sudo sed -i "10c Name[es_ES]=ON/OFF" /home/pi/Abrir_MMDVMPLUS.desktop
 sudo sed -i "6c MMDVMPLUS=ON" /home/pi/status.ini
 cd /home/pi
 sudo cp Abrir_MMDVMPLUS.desktop /home/pi/Desktop
@@ -44,9 +44,9 @@ xterm -geometry 85x13+612+846 -bg black -fg white -fa ‘verdana’ -fs 9x -T CO
 
 cd /home/pi/Desktop
 sudo cp Abrir_MMDVMPLUS.desktop /home/pi
-sudo sed -i "4c Exec=sh -c 'cd /home/pi/$SCRIPTS_version;sh ejecutar_dmrplus.sh'" /home/pi/Abrir_MMDVMPLUS.desktop
+sudo sed -i "4c Exec=sh -c 'cd /home/pi/$SCRIPTS_version;sudo sh ejecutar_dmrplus.sh'" /home/pi/Abrir_MMDVMPLUS.desktop
 sudo sed -i "5c Icon=/home/pi/$SCRIPTS_version/ICO_DMRPLUS_OFF.png" /home/pi/Abrir_MMDVMPLUS.desktop
-sudo sed -i "10c Name[es_ES]=Abrir DMR+" /home/pi/Abrir_MMDVMPLUS.desktop
+sudo sed -i "10c Name[es_ES]=ON/OFF" /home/pi/Abrir_MMDVMPLUS.desktop
 sudo sed -i "6c MMDVMPLUS=OFF" /home/pi/status.ini
 cd /home/pi
 sudo cp Abrir_MMDVMPLUS.desktop /home/pi/Desktop
