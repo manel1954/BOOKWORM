@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo killall -9 qt_editor_bm
+#sudo killall -9 qt_editor_bm
 
 mode=`grep -n -m 1 "^UARTPort=" /home/pi/MMDVMHost/MMDVMBM.ini`
 buscar=":"
