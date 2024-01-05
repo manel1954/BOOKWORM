@@ -244,7 +244,7 @@ rm $usuario/RXF_DMRGATEWAY.desktop
 sudo chmod 777 -R $usuario/Desktop
 sleep 2
 
-sudo rm /home/pi/BOOKWORM/associacioader.com
+sudo rm -R /home/pi/BOOKWORM/associacioader.com
 sudo rm /home/pi/BOOKWORM/Desktop/st-data
 sudo rm /home/pi/Desktop/st-data
 
