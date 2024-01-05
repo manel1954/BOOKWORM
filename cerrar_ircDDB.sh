@@ -12,7 +12,7 @@ sudo cp Abrir_ircDDB.desktop /home/pi
 
 sed -i "4cExec=sh -c 'cd /home/pi/$SCRIPTS_version;sudo sh ejecutar_ircDDB.sh'" /home/pi/Abrir_ircDDB.desktop
 sed -i "5c Icon=/home/pi/$SCRIPTS_version/ICO_IRCDDB_OFF.png" /home/pi/Abrir_ircDDB.desktop
-sed -i "10c Name[es_ES]=Abrir ircDDB" /home/pi/Abrir_ircDDB.desktop
+#sed -i "10c Name[es_ES]=Abrir ircDDB" /home/pi/Abrir_ircDDB.desktop
 sed -i "1c D-STAR=OFF" /home/pi/status.ini
 
 cd /home/pi
