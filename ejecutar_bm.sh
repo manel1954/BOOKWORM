@@ -42,7 +42,7 @@ xterm -geometry 85x13+12+846 -bg brown -fg white -fa ‘verdana’ -fs 9x -T CON
 
 cd /home/pi/Desktop
 sudo cp Abrir_MMDVMBM.desktop /home/pi
-sed -i "4c Exec=sh -c 'cd /home/pi/$SCRIPTS_version; sh ejecutar_bm.sh'" /home/pi/Abrir_MMDVMBM.desktop
+sed -i "4c Exec=sh -c 'cd /home/pi/$SCRIPTS_version; sudo sh ejecutar_bm.sh'" /home/pi/Abrir_MMDVMBM.desktop
 sed -i "5c Icon=/home/pi/$SCRIPTS_version/ICO_BM_OFF.png" /home/pi/Abrir_MMDVMBM.desktop
 sed -i "10c Name[es_ES]=ON/OFF" /home/pi/Abrir_MMDVMBM.desktop
 sed -i "7c MMDVMBM=OFF" /home/pi/status.ini
