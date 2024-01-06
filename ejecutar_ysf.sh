@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo pkill -f qt_editor_ysf_fcs_ycs
 SCRIPTS_version=$(awk "NR==3" /home/pi/version-fecha-actualizacion)
 
 #Colores 
@@ -14,7 +15,7 @@ cd /home/pi/Desktop
 sudo cp Abrir_YSF.desktop /home/pi
 sed -i "4c Exec=sh -c 'cd /home/pi/$SCRIPTS_version;sudo sh cerrar_ysf.sh'" /home/pi/Abrir_YSF.desktop
 sed -i "5c Icon=/home/pi/$SCRIPTS_version/ICO_YSFC4FM_ON.png" /home/pi/Abrir_YSF.desktop
-sed -i "10c Name[es_ES]=Cerrar YSF" /home/pi/Abrir_YSF.desktop
+#sed -i "10c Name[es_ES]=Cerrar YSF" /home/pi/Abrir_YSF.desktop
 sed -i "3c YSF=ON" /home/pi/status.ini
 cd /home/pi
 sudo cp Abrir_YSF.desktop /home/pi/Desktop
@@ -28,7 +29,7 @@ echo "                               ABRIENDO YSF   "
 echo " **************************************************************************"
 sleep 2
 
-xterm -geometry 88x17+1274+665 -bg black -fg orange -fa ‘verdana’ -fs 9x -T CONSOLA_YSF -e sudo ./YSFGateway YSFGateway.ini
+xterm -geometry 85x12+1215+296 -bg black -fg orange -fa ‘verdana’ -fs 9x -T CONSOLA_YSF -e sudo ./YSFGateway YSFGateway.ini
 
 
 
