@@ -45,12 +45,12 @@ sudo cp Abrir_YSF2DMR.desktop /home/pi/Desktop
 sudo rm /home/pi/Abrir_YSF2DMR.desktop
 
 cd /home/pi/YSF2DMR
-xterm -geometry 88x6+1274+665 -bg brown -fg white -fa ‘verdana’ -fs 9x -T CONSOLA_YSFDMR -e ./YSF2DMR YSF2DMR.ini &  
+xterm -geometry 85x12+1215+296 -bg brown -fg white -fa ‘verdana’ -fs 9x -T CONSOLA_YSFDMR -e ./YSF2DMR YSF2DMR.ini &  
 
 sleep 2
 cd /home/pi/MMDVMHost
 #/home/pi/BOOKWORM/./qt_info_ysf2dmr & sudo ./MMDVMFUSION MMDVMFUSION.ini
-xterm -geometry 88x9+1274+787 -bg brown -fg white -fa ‘verdana’ -fs 9x -T CONSOLA_MMDVMFUSION -e sudo ./MMDVMFUSION MMDVMFUSION.ini
+xterm -geometry 85x12+612+296 -bg brown -fg white -fa ‘verdana’ -fs 9x -T CONSOLA_MMDVMFUSION -e sudo ./MMDVMFUSION MMDVMFUSION.ini
 
 cd /home/pi/Desktop
 sudo cp Abrir_YSF2DMR.desktop /home/pi
