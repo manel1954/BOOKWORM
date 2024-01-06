@@ -1,6 +1,6 @@
 #!/bin/bash
-
-sudo killall -9 qt_editor_ysf2dmr
+sudo pkill -f qt_editor_ysf2dmr
+#sudo killall -9 qt_editor_ysf2dmr
 
 #Colores 
 ROJO="\033[1;31m"
