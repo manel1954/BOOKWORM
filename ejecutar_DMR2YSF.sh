@@ -1,5 +1,5 @@
 #!/bin/bash
-
+sudo pkill -f qt_editor_dmr2ysf
 #Colores
 ROJO="\033[1;31m"
 VERDE="\033[1;32m"
