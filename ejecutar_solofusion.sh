@@ -1,5 +1,5 @@
 #!/bin/bash
-
+sudo pkill -f qt_editor_dmr2ysf
 sudo killall -9 qt_editor_solofusion
 
 mode=`grep -n -m 1 "^UARTPort=" /home/pi/MMDVMHost/MMDVMFUSION.ini`
