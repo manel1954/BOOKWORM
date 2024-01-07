@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo systemctl stop mmdvm_bridge.service #esto se hace para que funcione el DMRGateway 
+#sudo systemctl stop mmdvm_bridge.service #esto se hace para que funcione el DMRGateway 
 
 mode=`grep -n -m 1 "^Port=" /home/pi/MMDVMHost/MMDVMDMRGateway.ini`
 buscar=":"

@@ -1,5 +1,6 @@
 #!/bin/bash
-
+sudo killall -9 MMDVMDMRGATEWAY
+sudo killall -9 DMRGateway
 SCRIPTS_version=$(awk "NR==3" /home/pi/version-fecha-actualizacion) 
 cd /home/pi/Desktop
 sudo cp Abrir_dmrgateway.desktop /home/pi/
@@ -14,5 +15,4 @@ sudo cp Abrir_dmrgateway.desktop /home/pi/Desktop
 sleep 1
 sudo rm /home/pi/Abrir_dmrgateway.desktop
 
-sudo killall -9 MMDVMDMRGATEWAY
-sudo killall -9 DMRGateway
+
