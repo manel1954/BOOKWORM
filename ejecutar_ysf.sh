@@ -1,6 +1,6 @@
 #!/bin/bash
 #sudo pkill -f qt_editor_ysf_fcs_ycs
-cd /home/pi/YSFClients/YSFGateway/
+
 
 SCRIPTS_version=$(awk "NR==3" /home/pi/version-fecha-actualizacion)
 
@@ -23,6 +23,7 @@ cd /home/pi
 sudo cp Abrir_YSF.desktop /home/pi/Desktop
 
 sudo rm /home/pi/Abrir_YSF.desktop
+cd /home/pi/YSFClients/YSFGateway/
 xterm -geometry 85x12+1215+296 -bg black -fg orange -fa ?verdana? -fs 9x -T CONSOLA_YSF -e sudo ./YSFGateway YSFGateway.ini
 
 cd /home/pi/YSFClients/YSFGateway
