@@ -35,10 +35,10 @@ sudo cp Abrir_DMR2NXDN.desktop /home/pi/Desktop
 sudo rm /home/pi/Abrir_DMR2NXDN.desktop
 
 cd /home/pi/DMR2NXDN
-xterm -geometry 85x12+1215+296 -bg violet -fg black -fa ‘verdana’ -fs 9x -T CONSOLA_DMR2NXDN -e ./DMR2NXDN DMR2NXDN.ini & 
+sudo xterm -geometry 85x12+1215+296 -bg violet -fg black -fa ‘verdana’ -fs 9x -T CONSOLA_DMR2NXDN -e ./DMR2NXDN DMR2NXDN.ini & 
 cd /home/pi/MMDVMHost
 #/home/pi/BOOKWORM/./qt_info_dmr2nxdn & sudo lxterminal --geometry=75x12 -e ./DMR2NXDN MMDVMDMR2NXDN.ini &
-xterm -geometry 85x12+612+296 -bg violet -fg black -fa ‘verdana’ -fs 9x -T CONSOLA_MMDVMDMR2NXDN -e ./DMR2NXDN MMDVMDMR2NXDN.ini & 
+sudo sudo xterm -geometry 85x12+612+296 -bg violet -fg black -fa ‘verdana’ -fs 9x -T CONSOLA_MMDVMDMR2NXDN -e ./DMR2NXDN MMDVMDMR2NXDN.ini & 
 cd /home/pi/NXDNClients/NXDNGateway
 xterm -geometry 85x12+10+296 -bg violet -fg black -fa ‘verdana’ -fs 9x -T CONSOLA_NXDNGateway -e ./NXDNGateway NXDNGateway.ini
 
