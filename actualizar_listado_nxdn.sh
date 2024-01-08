@@ -17,13 +17,11 @@ echo "${BLANCO}"
 echo "                       ACTUALIZANDO FICHERO NXDNHost.txt"
 echo "${VERDE}"
 echo "            ********************************************************"
-                
+     
 cd $usuario/NXDNClients/NXDNGateway/
-rm -R private
-mkdir private
-cd $usuario/$SCRIPTS_version
-cp NXDNHosts.txt $usuario/NXDNClients/NXDNGateway/private
-cp NXDNHosts.txt $usuario/NXDNClients/NXDNGateway                            
+wget -O NXDNHosts.txt https://github.com/g4klx/NXDNClients/blob/master/NXDNGateway/NXDNHosts.txt  
+cp NXDNHosts.txt private -R
+                           
 sleep 2
 clear  
 echo "\v\v"  
