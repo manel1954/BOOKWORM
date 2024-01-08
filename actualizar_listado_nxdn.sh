@@ -19,7 +19,7 @@ echo "${VERDE}"
 echo "            ********************************************************"
      
 cd $usuario/NXDNClients/NXDNGateway/
-wget -O NXDNHosts.txt https://github.com/g4klx/NXDNClients/blob/master/NXDNGateway/NXDNHosts.txt  
+wget -O NXDNHosts.txt https://raw.githubusercontent.com/g4klx/NXDNClients/master/NXDNGateway/NXDNHosts.txt  
 cp NXDNHosts.txt private -R
                            
 sleep 2
