@@ -8,7 +8,7 @@ caracteres=`expr index $mode $buscar`
 caracteres_linea=`expr $caracteres - 1`
 numero_linea_port=`expr substr $mode 1 $caracteres_linea`
 mode=$(awk "NR==$numero_linea_port" /home/pi/MMDVMHost/MMDVMDMRGateway.ini)
-puerto=`expr substr $mode 14 9`
+puerto=`expr substr $mode 15 9`
 puerto="  "$puerto
 cd /home/pi/Desktop
 cp RXF_DMRGATEWAY.desktop /home/pi
