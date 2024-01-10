@@ -31,7 +31,7 @@ MARRON="\33[38;5;138m"
                         sleep 2  
 
                         cd /home/pi/Downloads
-                        sudo ./rustdesk-1.2.3-aarch64.deb
+                        sudo apt install ./rustdesk-1.2.3-aarch64.deb
                         clear
                         echo "\v\v\v\v\v\v"
                         echo "${VERDE}"
