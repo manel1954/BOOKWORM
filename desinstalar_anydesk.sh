@@ -16,7 +16,14 @@ MARRON="\33[38;5;138m"
                         echo "                        DESINSTALANDO ANYDESK                            "
                         echo "***********************************************************************"
                         echo "***********************************************************************"
-                        echo "\v\v\v\v\v\v"
+                        echo ""
+                        echo ""
+                        echo ""
+                        echo ""
+                        echo ""
+                        echo ""
+                        echo ""
+                        echo ""
                         sleep 2
                         clear                  
                         sed -i "12c ANYDESK=OFF" /home/pi/info.ini                        
