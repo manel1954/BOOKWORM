@@ -1,4 +1,6 @@
-﻿#!/bin/bash
+﻿
+
+#!/bin/bash
                     #Copia el MMDVMHost Actual en .local
                     cd /home/pi
                     sudo rm -R /home/pi/.local/MMDVMHost
