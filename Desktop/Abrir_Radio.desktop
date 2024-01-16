@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
 TryExec=lxterminal
-Exec=sh -c 'cd /home/pi/BOOKWORM; sh ejecutar_radio.sh'
+Exec=sh -c 'cd /home/pi/BOOKWORM; sudo sh ejecutar_radio.sh'
 Icon=/home/pi/BOOKWORM/ICO_RADIO_OFF.png
 Type=Application
 StartupNotify=false
